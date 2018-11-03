@@ -1,0 +1,37 @@
+.main1 {
+  background-image: url('../images/diwali-1054212_1920.jpg');
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 13px;
+  height: 100%;
+  font-family: Arial;
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+.row {
+    margin: 8px -16px;
+}
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 10px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+}
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}

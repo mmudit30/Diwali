@@ -1,0 +1,49 @@
+body,html{
+  height: 100%;
+}
+.foot{
+  padding-top: 520px;
+}
+.offer{
+  background-image: url('../images/diwali2.jpg');
+  height: 100%;
+  background-position: 70% 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.head{
+  background-image: url('../images/diwali-2890605_1920.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: 50% 50%;
+}
+.head img{
+  position: relative;
+  float: none;
+  transform: translate(0%,50%);
+  width: 15%;
+}
+.head #tag{
+  position: relative;
+  color: orange;
+  transform: translate(75%,50%);
+  text-shadow: 2px 2px teal;
+  letter-spacing: 15px;
+  font-family: 'Spicy Rice', cursive;
+}
+.head #tagline{
+  position: absolute;
+  color: yellow;
+  font-size: 30px;
+  letter-spacing: 3px;
+  transform: translate(20%,10%);
+  text-shadow: 1px 1px black;
+  font-family: 'Chelsea Market', cursive;
+}
